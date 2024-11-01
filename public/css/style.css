@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #1b5e20;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-book-btn {
+    background-color: white;
+    color: #1b5e20;
+    border: 2px solid #1b5e20;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-book-btn:hover {
+    background-color: #1b5e20;
+    color: white;
+}
+
+
+.add-borrow-btn {
+    background-color: white;
+    color: #1b5e20;
+    border: 2px solid #1b5e20;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.add-borrow-btn:hover {
+    background-color: #1b5e20;
+    color: white;
+}
+
